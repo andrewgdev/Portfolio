@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="header__h1">ANDREW GUERRA</h1>
+
+        <nav class="header__nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#projects">Projects</a></li>
+                <li class="nav__li"><a href="#skills">Skills</a></li>
+                <li class="nav__li"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2 class="title__h2">Welcome!</h2>
+        
+        <p class="welcome-description__p">I am a web developer with a passion for learning new skills and has had success in previous endeavours. I can build quickly and always try to find a better way to put new features together. A separate interest 
+        of mine is embedded systems.
+        </p>
+
+        <section class="projects__section" id="projects">
+            <h2 class="title__h2">Projects</h2>
+            
+            <div class="projects__container_grid">
+                <figure class="project__figure">
+                    <a href=""><img src="./images/FireWireGames.jpg" alt="Fire Wire Games" width="75" height="75"></a>
+                    <h3 class="project__h3_title">Fire Wire Games</h3>
+                    <h4 class="project__h4_skills"> Skills: ReactJS, SASS</h4>
+                    <p class="project__p_description">Fire Wire Games was one of my first projects that was made using basic Javascript and learning how to use React.</p>
+                </figure>
+
+                <figure class="project__figure">
+                    <a href=""><img src="./images/ResinSurf.jpg" alt="Resin Surf Shop" width="75" height="75"></a>
+                    <h3 class="project__h3_title">Resin Surf</h3>
+                    <h4 class="project__h4_skills"> Skills: HTML 5, CSS 3, Javascript, SASS</h4>
+                    <p class="project__p_description">Resin Surf was made to practice using SASS styling.</p>
+                </figure>
+
+                <figure class="project__figure">
+                    <a href=""><img src="./images/RooksBooks.jpg" alt="Rook's Books" width="75" height="75"></a>               
+                    <h3 class="project__h3_title">Rook's Books</h3>
+                    <h4 class="project__h4_skills"> Skills: HTML 5, CSS 3, Javascript, SASS, Fetch API</h4>
+                    <p class="project__p_description">This project was made to work with the Fetch API while practicing SASS styling.</p> 
+                </figure>
+
+                <figure class="project__figure">
+                    <a href=""><img src="./images/WinterGallery.jpg" alt="Winter Gallery" width="75" height="75"></a>
+                    <h3 class="project__h3_title">Winter Gallery</h3>
+                    <h4 class="project__h4_skills"> Skills: HTML 5, CSS 3, Javascript</h4>
+                    <p class="project__p_description">Winter Gallery was made to establish the ability to manipulate the DOM with Javascript.</p>
+                </figure>
+            </div>
+        </section>
+
+        <section class="skills__section" id="skills">
+            <h2 class="title__h2">Skills</h2>
+
+            <div class="skills__container_grid">
+                <figure class="skills__figure figure-1">
+                    <img class="skills__img" src="./images/HTML5Logo.png" alt="HTML 5 Logo" width="35" height="35">
+                </figure>
+                
+                <figure class="skills__figure figure-2">
+                    <img class="skills__img" src="./images/JavascriptLogo.png" alt="Javascript Logo" width="35" height="35">
+                </figure>
+                
+                <figure class="skills__figure figure-3">
+                    <img class="skills__img" src="./images/CSS3Logo.png" alt="CSS 3 Logo" width="35" height="35">
+                </figure>
+                
+                <figure class="skills__figure figure-4">
+                    <img class="skills__img" src="./images/BootstrapLogo.png" alt="Bootstrap Logo" width="35" height="35">
+                </figure>
+                
+                <figure class="skills__figure figure-5">
+                    <img class="skills__img" src="./images/SassLogo.jpg" alt="SASS Logo" width="35" height="35">
+                </figure>
+                
+                <figure class="skills__figure figure-6">
+                    <img class="skills__img" src="./images/ReactLogo.png" alt="React Logo" width="35" height="35">
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form__section" id="contact">
+            <h2 class="title__h2">Contact</h2>
+
+            <form class="contact__form" action="https://formsubmit.co/andrewguerra@andrewguerra.dev" method="POST">
+                <input class="form__input form__input_subject" type="hidden" name="_subject" value="New email from Portfolio!">
+                
+                <input class="form__input form__input_email" type="email" name="email" placeholder="Your Email Address" required>
+                
+                <textarea class="form__input form__input_text" type="text" name="message" placeholder="Type message here" required>
+                </textarea>
+                
+                <button class="form__button_submit" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
