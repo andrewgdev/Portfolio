@@ -56,6 +56,14 @@ header {
                     color: $secondaryTextColorWhite;
                 }
             }
+
+            li .fa-github-square {
+                font-size: 1.75em;
+            }
+
+            li .fa-linkedin {
+                @extend .fa-github-square;
+            }
         }
     }
 }

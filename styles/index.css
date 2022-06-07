@@ -80,6 +80,10 @@ header nav.header__nav ul.nav__ul li.nav__li a {
   color: white;
 }
 
+header nav.header__nav ul.nav__ul li .fa-github-square, header nav.header__nav ul.nav__ul li .fa-linkedin {
+  font-size: 1.75em;
+}
+
 main {
   height: 100%;
   width: auto;
